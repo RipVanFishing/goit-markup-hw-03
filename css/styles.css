@@ -27,6 +27,7 @@ ul {
 /* Header */
 header {
   background-color: var(--header-background-color);
+  border-bottom: 1px solid #ececec;
 }
 .section-navigation {
   width: 1200px;
@@ -41,6 +42,8 @@ header {
 .site-nav {
   display: flex;
   margin-left: 93px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .site-nav .link a {
   display: block;
@@ -100,6 +103,10 @@ header {
 }
 
 /* Main portfolio */
+.filter-main-title {
+  margin: 0;
+}
+
 .main-portfolio {
   background-color: var(--background-color);
 }
@@ -113,6 +120,7 @@ header {
 .filter-block {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filter-block .filter-button {
