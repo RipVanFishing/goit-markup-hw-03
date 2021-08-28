@@ -218,6 +218,9 @@ footer {
 }
 /* Main Studio */
 /* Hero Main */
+.section {
+  padding-bottom: 94px;
+}
 .hero {
   background: var(--footer-background-color);
 }
@@ -294,7 +297,6 @@ footer {
 
 .about-list > .list:not(:last-child) {
   margin-right: 30px;
-  padding-bottom: 94px;
 }
 .about-title {
   text-align: center;
@@ -338,7 +340,6 @@ footer {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 94px;
 }
 
 .team h3 {
