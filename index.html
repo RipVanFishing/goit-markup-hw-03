@@ -42,7 +42,7 @@
         </section>
         <section class="section-properties">
             <div class="container">
-            <h2>Наши возможности</h2>
+            <h2 class="properties-title">Наши возможности</h2>
             <ul class="properties">
                 <li class="item"><h3>Внимание к деталям</h3>
                 <p>Идейные соображения, а также начало повседневной работы по формированию позиции. </p></li>
@@ -56,42 +56,81 @@
             </div>
         </section>
         <section class="about-us">
-            <h2>Чем мы занимаемся</h2>
-            <ul>
-                <li><img src="./images/box1.jpg" alt="Программирование" width="370"></li>
-                <li><img src="./images/box2.jpg" alt="Мобильные приложения" width="370"></li>
-                <li><img src="./images/box3.jpg" alt="СимплДимпл" width="370"></li>
+            <div class="container">
+            <h2 class="about-title">Чем мы занимаемся</h2>
+            <ul class="about-list">
+                <li class="list"><img src="./images/box1.jpg" alt="Программирование" width="370"></li>
+                <li class="list"><img src="./images/box2.jpg" alt="Мобильные приложения" width="370"></li>
+                <li class="list"><img src="./images/box3.jpg" alt="СимплДимпл" width="370"></li>
             </ul>
+        </div>
         </section>
 
         <section class="team">
-            <h2>Наша команда</h2>
+            <div class="container">
+            <h2 class="team-title">Наша команда</h2>
+            
             <ul class="team-list">
-                <li><img src="./images/team/igor.jpg" alt="Игорь Демьяненко" width="270"> 
+                <li class="item">
+                    <article class="card">
+                        <div class="card-thumb">
+                <img src="./images/team/igor.jpg" alt="Игорь Демьяненко" width="270"> 
+                </div>
+                <div class="card-content">
                 <h3>Игорь Демьяненко</h3>
-                <p lang="en">Product Designer</p></li>
-                <li><img src="./images/team/olga.jpg" alt="Ольга Репина" width="270">
-                <h3>Ольга Репина</h3>
-                <p lang="en">Frontend Developer</p></li>
-                <li><img src="./images/team/nikolay.jpg" alt="Николай Тарасов" width="270">
-                <h3>Николай Тарасов</h3>
-                <p lang="en">Marketing</p></li>
-                <li><img src="./images/team/michail.jpg" alt="Михаил Ермаков" width="270">
-                <h3>Михаил Ермаков</h3>
-                <p lang="en">UI Designer</p></li>
-            </ul>
-        </section>
+                <p lang="en">Product Designer</p>
+                </div> 
+                </article>  
+                </li>
+                <li class="item">
+                    <article class="card">
+                        <div class="card-thumb">
+                            <img src="./images/team/olga.jpg" alt="Ольга Репина" width="270">
+                        </div>
+                        <div class="card-content">
+                            <h3>Ольга Репина</h3>
+                            <p lang="en">Frontend Developer</p>
+                        </div>
+                    </article>
+                </li>
+                <li class="item">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/team/nikolay.jpg" alt="Николай Тарасов" width="270">
+                            </div>
+                            <div class="card-content">
+                                <h3>Николай Тарасов</h3>
+                                <p lang="en">Marketing</p>
+                            </div>
+                        </article>
+                    </li>
+                     <li class="item">
+                            <article class="card">
+                                <div class="card-thumb">
+                                    <img src="./images/team/michail.jpg" alt="Михаил Ермаков" width="270">
+                                </div>
+                                <div class="card-content">
+                                    <h3>Михаил Ермаков</h3>
+                                    <p lang="en">UI Designer</p>
+                                </div>
+                            </article>
+                        </li> 
+                        </ul>
+                        </div>
+                 </section>
 
     </main>
     <footer>
-        <a class="logo" href="./index.html">Web<span class="logo-navigation-footer">Studio</span></a>
-        <address class="contact-footer">
-            <p>г. Киев, пр-т Леси Украинки, 26 </p>
-            <ul>
-                <li><a href="mailto:">info@example.com </a></li>
-                <li><a href="tel:">+38 099 111 11 11 </a></li>
-            </ul>
-        </address>
-        </footer>
+        <div class="container">
+            <a class="logo" href="./index.html">Web<span class="logo-navigation-footer">Studio</span></a>
+            <address class="contact-footer">
+                <p>г. Киев, пр-т Леси Украинки, 26 </p>
+                <ul class="contact-footer-list">
+                    <li class="item"><a href="mailto:">info@example.com </a></li>
+                    <li class="item"><a href="tel:">+38 099 111 11 11 </a></li>
+                </ul>
+            </address>
+        </div>
+    </footer>
 </body>
 </html>
