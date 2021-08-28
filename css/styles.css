@@ -24,6 +24,29 @@ ul {
 header {
   background-color: var(--header-background-color);
 }
+.section-navigation {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav .link a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.site-nav .link:not(:last-child) {
+  margin-right: 53px;
+}
+
 .logo {
   text-decoration: none;
   font-family: Raleway;
@@ -50,6 +73,14 @@ header {
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--accent-color);
+}
+.contact-header {
+  display: flex;
+  margin-left: auto;
+}
+.contact-header .link + .link {
+  display: block;
+  margin-left: 50px;
 }
 
 .contact-header a {
