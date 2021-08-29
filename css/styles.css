@@ -24,6 +24,20 @@ img {
 ul {
   list-style: none;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* Header */
 header {
   background-color: var(--header-background-color);
@@ -103,25 +117,18 @@ header {
 }
 
 /* Main portfolio */
-.invisible-title {
-  display: none;
+
+.filter-section {
+  background-color: var(--background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.main-portfolio {
-  background-color: var(--background-color);
-}
-.main-block {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .filter-block {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  margin-top: 94px;
+  margin-bottom: 56px;
+  margin-top: 0;
   padding-left: 0;
 }
 
@@ -197,8 +204,10 @@ header {
 }
 
 /* Footer */
-footer {
+.footer-section {
   background-color: var(--footer-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .container {
   width: 1200px;
@@ -215,6 +224,7 @@ footer {
 .contact-footer-list {
   margin-left: auto;
   padding-left: 0;
+  margin-top: 0;
 }
 .contact-footer p {
   text-decoration: none;
@@ -225,6 +235,7 @@ footer {
   color: var(--header-background-color);
   font-style: normal;
   margin-left: auto;
+  margin-top: 20px;
 }
 .contact-footer a {
   font-weight: 400;
@@ -235,6 +246,9 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
+.item-footer {
+  margin-top: 9px;
+}
 
 .contact-footer a:focus,
 .contact-footer a:hover {
@@ -242,13 +256,12 @@ footer {
 }
 /* Main Studio */
 /* Hero Main */
-.section {
+.hero-section {
   padding-bottom: 200px;
   padding-top: 200px;
-}
-.hero {
   background: var(--footer-background-color);
 }
+
 .hero-title {
   margin-top: 0;
   font-weight: 900;
@@ -257,6 +270,11 @@ footer {
   letter-spacing: 0.06em;
   color: var(--header-background-color);
   text-transform: uppercase;
+  width: 696px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 .hero-button {
   font-weight: 700;
@@ -291,7 +309,6 @@ footer {
   display: flex;
   margin-bottom: 0;
   padding-left: 0;
-  margin-top: 94px;
 }
 .properties-title {
   margin: 0;
@@ -320,6 +337,7 @@ footer {
 /* About main */
 .about-us {
   background-color: var(--background-color);
+  padding-bottom: 94px;
 }
 .about-list {
   display: flex;
@@ -342,6 +360,8 @@ footer {
 /* Team main */
 .team {
   background-color: var(--accent-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
