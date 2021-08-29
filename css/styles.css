@@ -243,7 +243,8 @@ footer {
 /* Main Studio */
 /* Hero Main */
 .section {
-  padding-bottom: 94px;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 .hero {
   background: var(--footer-background-color);
@@ -282,7 +283,10 @@ footer {
 /* Properties main */
 .section-properties {
   background-color: var(--background-color);
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
+
 .properties {
   display: flex;
   margin-bottom: 0;
